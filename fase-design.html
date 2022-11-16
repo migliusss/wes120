@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="fase-design-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/30ee332d1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="main-nav-box">
+      <ul class="nav-menu">
+        <li><a class="nav-item" href="../index.html">Hjem</a></li>
+        <li><a class="nav-item" href="#">Prosjektledelse</a></li>
+        <li><a class="nav-item" href="#">Systemutvikling</a></li>
+        <li class="dropdown">
+          <a class="nav-item" href="../webutvikling/webutvikling.html"
+            >Webutvikling og UX
+            <i class="fa-solid fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Fase 1: Analyse</a></li>
+            <li><a href="#">Fase 2: Design</a></li>
+            <li><a href="#">Fase 3: Virkeliggjøre</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-item" href="#">Litteraturliste</a></li>
+      </ul>
+      <div class="search-bar-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="search-bar" type="text" />
+      </div>
+    </nav>
+    <section class="article-box">
+      <nav class="table-of-content-nav">
+        <h1 class="table-of-content-header">Innholdsfortegnelse</h1>
+        <ol class="table-of-content">
+          <li><a href="#brukervennlighet">Brukervennlighet</a></li>
+          <li>
+            <a href="#informasjonsarkitektur">Informasjonsarkitektur</a>
+          </li>
+          <li><a href="#skisser">Skisser</a></li>
+          <li><a href="#wireframes">Wireframes</a></li>
+          <li><a href="#prototype">Prototype</a></li>
+          <li><a href="#brukertesting">Brukertesting</a></li>
+          <li><a href="#litteraturliste">Litteraturliste</a></li>
+        </ol>
+      </nav>
+      <article class="content-box">
+        <p class="nav-map">
+          <a href="../index.html">Hjem / </a
+          ><a href="../webutvikling/webutvikling.html">Webutvikling og UX / </a
+          >Fase 2: Design
+        </p>
+        <h1 id="webutvikling-fase2-design">Webutvikling<br />Fase 2: Design</h1>
+        <p class="paragraph">
+          Målet med design av et informasjonssystem bør være å utvikle et system
+          som oppfyller brukernes behov og som brukerne synes er enkelt å bruke.
+          Derfor bør brukersentrert utvikling være et rød tråd gjennom hele
+          designfasen. Ifølge Sandnes (2022) innebærer brukersentrert utvikling
+          innsamling av informasjon om brukerne, design av utkast til systemet,
+          og testing av det på et panel med representative brukere. Derfor
+          basert på informasjon som ble identifisert etter en
+          <span><a target="_blank" href="#">behovsanalyse</a></span
+          >, handler designfasen om å utforske ideer, designe løsninger, og
+          teste de ut (Sandnes, 2022, s. 261). Design av et informasjonssystem
+          inkluderer følgende.
+        </p>
+        <h2 class="header" id="brukervennlighet">Brukervennlighet</h2>
+        <p class="paragraph">
+          Som nevnt tidligere, et av målene i designfasen er å utvikle et system
+          brukerne synes er enkelt å bruke. Med andre ord, bør systemet oppfylle
+          krav til brukervennlighet. Et brukervennlig system er lett å lære,
+          effektivt å bruke, lett å huske, minimaliserer sjanser for feil, tåler
+          feil, og er behagelig å bruke (Sandnes, 2022, s. 17).<br /><br />Et
+          brukervennlig informasjonssystem innebærer bruk av konvensjoner.
+          Brukere har blitt opplært hvordan de ulike elementene på et system
+          skal tolkes, som etter hvert har blitt til konvensjoner. De fleste
+          brukerne har en felles forståelse for hva noe betyr eller hvordan noe
+          brukes i et system (Sandnes, 2022, s. 52). Derfor bruk av konvensjoner
+          innenfor informasjonsarkitektur, interaksjonsdesign, og visuelt design
+          øker brukervennlighet for et system.
+        </p>
+        <h2 class="header" id="informasjonsarkitektur">
+          Informasjonsarkitektur
+        </h2>
+        <p class="paragraph">
+          Informasjonsarkitektur (IA) innebærer hvordan innholdet og
+          navigasjonssystemet på et system skal struktureres. En strukturert IA
+          gjør at det blir enklere for brukerne å navigere, forstå omgivelsene
+          og oppnå målet sitt. En typisk struktur for et system er å dele
+          hovedtemaene i tematiske undersider (Interaction Design Foundation,
+          u.å.).<br /><br />For å øke brukervennlighet for et system bør IA
+          struktureres på en måte som er forståelig for brukerne. Kortsortering
+          er en metode som hjelper å finne ut hvordan informasjon bør
+          struktureres, ved å teste sammen med brukerne og la dem bestemme
+          organiseringen av ulike temaene. Dessuten hjelper kortsorterings
+          metode å avgjøre hvordan IA bør struktureres, da det ikke er alltid
+          tydelig hvordan IA for et nytt system skal se ut (Sandnes, 2022, s.
+          254).
+        </p>
+        <h2 class="header" id="skisser">Skisser</h2>
+        <p class="paragraph">
+          Skisser er en måte ideer kan uttrykkes på. Skisser er billige, lages
+          på kort tid, og er minimalistiske. Ved bruk av penn og papir kan
+          utviklere gjøre ideene mer virkelige. Skisser øker kreativiteten, gir
+          rom for nye ideer og løsninger. Ikke minst hjelper skisser med å ta
+          den endelige beslutningen om hvilken design oppfyller brukernes behov
+          best (Sandnes, 2022, s. 272 - 275).
+        </p>
+        <h2 class="header" id="wireframes">Wireframes</h2>
+        <p class="paragraph">
+          En wireframe for et system er en enkel tegning som er mer detaljerte
+          og mer innholdsrik enn skisser. Wireframe har som mål å vise oppsett
+          for et system og hvor de ulike elementene i et system skal plasseres
+          blant annet navigasjonsmeny, artikler, bilder og knapper (Sandnes,
+          2022, s. 274 - 275).
+        </p>
+        <h2 class="header" id="prototype">Prototype</h2>
+        <p class="paragraph">
+          En prototype er mer interaktiv enn en wireframe, og innebærer visuelle
+          beskrivelser om funksjonalitet og om hvordan det ferdige systemet skal
+          se ut ved implementeringen. Prototype gir en mulighet til å teste ut
+          systemet (Sandnes, 2022, s. 291 - 292).
+        </p>
+        <h2 class="header" id="brukertesting">Brukertesting</h2>
+        <p class="paragraph">
+          Brukertesting innebærer testing av systemet på målgruppen før
+          programmering av et system kan starte. Målet med brukertesting er å
+          finne ut om det oppfyller kravene til brukernes behov, og
+          brukervennlighet. Dersom problemer avdekkes, kan systemet lett endres
+          og testes på nytt (Sandnes, 2022, s. 315 - 316). Brukertestingen kan
+          repeteres inntil et ønsket resultat er oppnådd.
+        </p>
+        <h2 class="header" id="litteraturliste">Litteraturliste</h2>
+        <p class="paragraph">
+          Sandnes, F. E. (2022). Universell utforming av IKT-systemer -
+          Brukergrensesnitt for alle (3.utg). Universitetsforlaget.
+          <br /><br />What is Information Architecture? (u.å). I Information
+          Architecture. Interaction Design Foundation. Hentet 1. november 2022
+          fra
+          <a
+            target="_blank"
+            class="litteraturliste-link"
+            href="https://www.interaction-design.org/literature/topics/information-architecture"
+            >https://www.interaction-design.org/literature/topics/information-architecture</a
+          >
+        </p>
+        <a href="#" class="neste-side-link"
+          >Gå til neste side Fase 3: Virkeliggjøre</a
+        >
+      </article>
+    </section>
+    <footer>
+      <div class="footer-p-box">
+        <p>Laget av Gruppe tre 2022</p>
+        <p>
+          Elias Rønningen | Adrian Løvik | Lars Torben Bovolden | Migle
+          Adomonyte | Mariell Hope | Torbjørn Holme Kjær | Tinius
+          Sæther-Fredriksen
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

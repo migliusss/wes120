@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* NAVIGATION MENU */
+.main-nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 10px;
+  box-shadow: #0000001a 0px 4px 12px;
+  background-color: #fff;
+  transition: 0.5s;
+  margin-bottom: 110px;
+  position: sticky;
+  top: 0;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+  flex: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.nav-item:link,
+.nav-item:active,
+.nav-item:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+  color: #3a86ff;
+  transition: 0.2s;
+}
+
+.fa-chevron-down {
+  margin-left: 5px;
+}
+
+.search-bar {
+  padding: 5px 10px 5px 30px;
+  border: 1px solid #000;
+  border-radius: 40px;
+  width: 140px;
+}
+
+.search-bar-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  left: 10px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #bbbbbb;
+  width: 204px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+}
+
+.dropdown-menu li {
+  margin-bottom: 25px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  color: #3a86ff;
+  transition: 0.2s;
+}
+
+/* CONTENT */
+.article-box {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  flex-wrap: wrap;
+}
+
+/* NAVIGATION MAP */
+.nav-map {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 35px;
+  color: #3a86ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.nav-map a:link,
+.nav-map a:active,
+.nav-map a:visited {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.nav-map a:hover {
+  color: #fb5607;
+  border-bottom: 1px solid #fb5607;
+}
+
+/* TABLE OF CONTENT */
+
+.table-of-content-nav {
+  margin-top: 140px;
+}
+
+.table-of-content-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #3a86ff;
+  margin-bottom: 22px;
+  margin-left: -40px;
+}
+
+.table-of-content {
+  font-size: 14px;
+  list-style-type: decimal-leading-zero;
+  font-family: "Montserrat", sans-serif;
+  color: #838383;
+}
+
+.table-of-content li {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.table-of-content a:link {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+.table-of-content a:active,
+.table-of-content a:visited {
+  color: #000;
+}
+
+.table-of-content a:hover {
+  color: #3a86ff;
+  transition: 0.2s;
+}
+
+/* TEXT */
+.content-box {
+  width: 700px;
+}
+
+.content-box h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  line-height: 80px;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+/* LINKS IN THE TEXT */
+span a:link,
+span a:active,
+span a:visited {
+  color: #3a86ff;
+  text-decoration: none;
+}
+
+span a:hover {
+  color: #fb5607;
+  border-bottom: 1px solid #fb5607;
+}
+
+.neste-side-link:link,
+.neste-side-link:active,
+.neste-side-link:visited {
+  text-decoration: none;
+  color: #3a86ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.neste-side-link:hover {
+  color: #fb5607;
+  border-bottom: 1px solid #fb5607;
+}
+
+/* LITTERATURLISTE */
+.litteraturliste-link:link,
+.litteraturliste-link:active,
+.litteraturliste-link:visited {
+  text-decoration: none;
+  color: #3a86ff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.litteraturliste-link:hover {
+  color: #fb5607;
+  border-bottom: 1px solid #fb5607;
+}
+
+/* FOOTER */
+footer {
+  background-color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #6c6c6c;
+}
+
+.footer-p-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 300px;
+  padding: 60px;
+}

@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eff8ff;
+}
+
+/* NAVIGATION MENU */
+.main-nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 10px;
+}
+
+.main-nav-box:hover {
+  box-shadow: #0000001a 0px 4px 12px;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+  flex: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.nav-item:link,
+.nav-item:active,
+.nav-item:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+  color: #3a86ff;
+  transition: 0.2s;
+}
+
+.fa-chevron-down {
+  margin-left: 5px;
+}
+
+.search-bar {
+  padding: 5px 10px 5px 30px;
+  border: 1px solid #000;
+  border-radius: 40px;
+  width: 140px;
+}
+
+.search-bar-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  left: 10px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #bbbbbb;
+  width: 204px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+}
+
+.dropdown-menu li {
+  margin-bottom: 25px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  color: #3a86ff;
+  transition: 0.2s;
+}
+
+/* MAIN HEADER */
+h1 {
+  margin-top: 130px;
+  margin-bottom: 40px;
+  font-size: 58px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.introduction-p-box {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction-p {
+  width: 500px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  line-height: 22px;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.introduction-button-box {
+  text-align: center;
+}
+
+.introduction-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  border: none;
+  background-color: #3a86ff;
+  padding: 18px 36px;
+  border-radius: 35px;
+  font-weight: 500;
+  margin-bottom: 130px;
+  color: #fff;
+}
+
+.introduction-button-link:link,
+.introduction-button-link:active,
+.introduction-button-link:visited {
+  text-decoration: none;
+}
+
+.introduction-button:hover {
+  background-color: #fb5607;
+  cursor: pointer;
+  box-shadow: #32325d40 0px 6px 12px -2px, #0000004d 0px 3px 7px -3px;
+}
+
+.introduction-button:active {
+  padding: 15px 30px;
+  transition: 0.3s;
+}
+
+/* ARTICLES */
+.article-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 130px;
+  gap: 30px;
+}
+
+.main-articles {
+  width: 350px;
+}
+
+.main-article-img {
+  object-fit: fill;
+  margin-bottom: 82px;
+}
+
+.article-card {
+  background: #fff;
+  box-shadow: #0000001a 0px 4px 12px;
+  border-radius: 20px;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.card-h {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card-p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 21px;
+}
+
+.card-button {
+  border: none;
+  padding: 12px 24px;
+  background-color: #8338ec;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+.card-button-link:link,
+.card-button-link:active,
+.card-button-link:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-button:hover {
+  background-color: #fb5607;
+  cursor: pointer;
+  box-shadow: #32325d40 0px 6px 12px -2px, #0000004d 0px 3px 7px -3px;
+}
+
+.card-button:active {
+  padding: 12px 24px;
+  transition: 0.3s;
+}
+
+/* FOOTER */
+footer {
+  background-color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #6c6c6c;
+}
+
+.footer-p-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 300px;
+  padding: 60px;
+}
